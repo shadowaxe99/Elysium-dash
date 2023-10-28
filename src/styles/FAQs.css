@@ -1,0 +1,29 @@
+.faqs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.faqs-header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faqs-item {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.faqs-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.faqs-item p {
+    font-size: 1em;
+    line-height: 1.5;
+}

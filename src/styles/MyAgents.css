@@ -1,0 +1,55 @@
+.myAgentsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.agentCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.agentCard .agentInfo {
+    display: flex;
+    align-items: center;
+}
+
+.agentCard .agentInfo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.agentCard .agentInfo .agentName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.agentCard .agentActions {
+    display: flex;
+    align-items: center;
+}
+
+.agentCard .agentActions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agentCard .agentActions button.edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.agentCard .agentActions button.delete {
+    background-color: #f44336;
+    color: white;
+}

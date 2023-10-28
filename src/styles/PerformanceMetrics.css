@@ -1,0 +1,39 @@
+.performance-metrics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.performance-metrics-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.performance-metrics-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.metric-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.metric-item:last-child {
+    border-bottom: none;
+}
+
+.metric-label {
+    font-size: 18px;
+}
+
+.metric-value {
+    font-size: 16px;
+    font-weight: bold;
+}

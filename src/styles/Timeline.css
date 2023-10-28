@@ -1,0 +1,46 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.timeline-item .date {
+    font-weight: bold;
+    color: #333;
+}
+
+.timeline-item .description {
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #666;
+}
+
+.timeline-item .status {
+    font-weight: bold;
+    color: #333;
+}
+
+.timeline-item .status.completed {
+    color: #4caf50;
+}
+
+.timeline-item .status.in-progress {
+    color: #ff9800;
+}
+
+.timeline-item .status.pending {
+    color: #f44336;
+}

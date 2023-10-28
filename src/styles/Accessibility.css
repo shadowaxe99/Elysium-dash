@@ -1,0 +1,38 @@
+/* Accessibility.css */
+
+.accessibility-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.accessibility-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.accessibility-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.accessibility-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.accessibility-link:hover {
+    text-decoration: underline;
+}
+
+.accessibility-list {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+.accessibility-list-item {
+    margin-bottom: 10px;
+}

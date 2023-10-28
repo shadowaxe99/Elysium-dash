@@ -1,0 +1,43 @@
+/* src/styles/ContactSupport.css */
+
+.contact-support-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.contact-support-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-support-form input,
+.contact-support-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-support-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-support-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-support-response {
+    margin-top: 20px;
+    color: green;
+}
