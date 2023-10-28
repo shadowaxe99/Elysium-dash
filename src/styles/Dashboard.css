@@ -1,0 +1,75 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.dashboard .sidebar {
+    width: 20%;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.dashboard .content {
+    width: 80%;
+    padding: 20px;
+}
+
+.dashboard .content .home,
+.dashboard .content .my-agents,
+.dashboard .content .marketplace,
+.dashboard .content .profile,
+.dashboard .content .settings,
+.dashboard .content .notifications,
+.dashboard .content .search,
+.dashboard .content .faqs,
+.dashboard .content .contact-support {
+    display: none;
+}
+
+.dashboard .content .active {
+    display: block;
+}
+
+.dashboard .notification-bell {
+    position: relative;
+}
+
+.dashboard .notification-bell .notification-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.dashboard .search-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dashboard .profile-overview,
+.dashboard .settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard .profile-overview .user-info,
+.dashboard .settings .user-settings {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

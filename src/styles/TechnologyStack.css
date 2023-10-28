@@ -1,0 +1,30 @@
+/* TechnologyStack.css */
+
+.technology-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.technology-stack h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.technology-stack ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.technology-stack ul li {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.technology-stack ul li span {
+    font-weight: bold;
+    color: #333;
+}

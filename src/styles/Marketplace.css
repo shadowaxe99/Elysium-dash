@@ -1,0 +1,52 @@
+/* src/styles/Marketplace.css */
+
+.marketplace-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.marketplace-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.marketplace-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.marketplace-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marketplace-item img {
+    width: 100%;
+    height: auto;
+}
+
+.marketplace-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.marketplace-item-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.marketplace-item-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: auto;
+}
